@@ -14,6 +14,10 @@ p {
   padding: 0;
 }
 
+h1{
+  color: #c30052;
+}
+
 .container {
   display: grid;
   min-height: 90vh;
@@ -37,6 +41,22 @@ p {
   min-height: 20rem;
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.button{
+  align-content: center;
+}
+
+.box__1, .button__1, .ch__1{
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.box__2, .button__2, .ch__2{
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.box__3, .button__3, .ch__3{
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
 }
 
 hr {
