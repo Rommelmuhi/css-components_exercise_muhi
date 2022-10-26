@@ -16,6 +16,23 @@ p {
 
 h1{
   color: #c30052;
+  font-size: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 25px;
+  color: #333;
+}
+
+h3{
+  color: #fff;
+  font-size: 15px;
+}
+
+p{
+  color: #fff;
+  font-size: 13px;
 }
 
 .container {
@@ -44,7 +61,11 @@ h1{
 }
 
 .button{
+  color: #fff;
   align-content: center;
+  cursor: pointer;
+  margin: auto;
+  font-size: 2rem;
 }
 
 .box__1, .button__1, .ch__1{
