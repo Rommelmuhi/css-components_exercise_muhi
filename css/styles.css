@@ -14,25 +14,27 @@ p {
   padding: 0;
 }
 
-h1{
+.main__title{
   color: #c30052;
   font-size: 30px;
 }
 
-h2{
+.sub__title{
   text-align: center;
   font-size: 25px;
   color: #333;
 }
 
-h3{
+.mini__title{
   color: #fff;
   font-size: 15px;
+  padding: 0 1rem;
 }
 
-p{
+.paragraph{
   color: #fff;
   font-size: 13px;
+  padding: 0 1rem 1rem 2rem;
 }
 
 .container {
@@ -45,12 +47,14 @@ p{
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  padding: 1rem;
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: 1rem;
 }
 
 .box {
@@ -65,7 +69,8 @@ p{
   align-content: center;
   cursor: pointer;
   margin: auto;
-  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
 }
 
 .box__1, .button__1, .ch__1{
