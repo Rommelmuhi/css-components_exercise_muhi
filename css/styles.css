@@ -12,26 +12,28 @@ h2,
 p {
   margin: 0;
   padding: 0;
+  font-size: 13px;
+  font-weight: 1.3rem;
 }
 
-.main__title{
+.main-title{
   color: #c30052;
   font-size: 30px;
 }
 
-.sub__title{
+.card__sub-title{
   text-align: center;
   font-size: 25px;
   color: #333;
 }
 
-.mini__title{
+.wrapper__mini-title{
   color: #fff;
   font-size: 15px;
   padding: 0 1rem;
 }
 
-.paragraph{
+.wrapper__description{
   color: #fff;
   font-size: 13px;
   padding: 0 1rem 1rem 2rem;
@@ -50,21 +52,21 @@ p {
   padding: 1rem;
 }
 
-.card-horizontal {
+.wrapper__card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
   margin: 1rem;
 }
 
-.box {
+.card__box {
   width: 100%;
   min-height: 20rem;
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
 }
 
-.button{
+.card__btn{
   color: #fff;
   align-content: center;
   cursor: pointer;
@@ -73,20 +75,16 @@ p {
   font-size: 1rem;
 }
 
-.box__1, .button__1, .ch__1{
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+.card__btn--flame-gradient:hover{
+  background: #d53369;
 }
 
-.box__2, .button__2, .ch__2{
-  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+.card__btn--frost-gradient:hover{
+  background: #0700b8;
 }
 
-.box__3, .button__3, .ch__3{
-  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
-}
-
-hr {
-  border: 1px solid rgba(51, 51, 51, 0.062);
+.card__btn--lime-gradient:hover{
+  background: #3ad59f;
 }
 
 button {
@@ -103,6 +101,22 @@ button {
   align-items: center;
   justify-content: space-evenly;
   max-width: 90vw;
+}
+
+.card__box--flame-gradient, .card__btn--flame-gradient, .wrapper__card-horizontal--flame-gradient{
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.card__box--frost-gradient, .card__btn--frost-gradient, .wrapper__card-horizontal--frost-gradient{
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.card__box--lime-gradient, .card__btn--lime-gradient, .wrapper__card-horizontal--lime-gradient{
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+hr {
+  border: 1px solid rgba(51, 51, 51, 0.062);
 }
 
 @media (max-width: 768px) {
